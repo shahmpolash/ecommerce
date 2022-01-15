@@ -1,0 +1,281 @@
+
+body{
+    font-family: 'Spline Sans', sans-serif;
+}
+header{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content:space-between;
+    
+    
+}
+.logo{
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+    margin-top: 45px;
+
+}
+li{
+    display: flex;
+}
+li a{
+    margin-right: 25px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.cart-icon{
+    font-size: 30px;
+}
+.search-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.banner-text h1{
+    font-size: 70px;
+} 
+section{
+    display: flex;
+    margin: 120px;
+    
+}
+.banner-text{
+    margin-top: 50px;
+}
+.banner-text a{
+    background-color: tomato;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.banner-text p{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.banner-image img{
+    margin-right: 120px;
+    width: 550px;
+    height: 550px;
+}
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;  
+}
+main h1{
+    text-align: center;
+    font-size: 50px;
+}
+.product img{
+    margin: 15px;
+    width: 400px;
+    height: 360px;
+}
+.product h2{
+    font-size: 50px;;
+}
+.product .price{
+    font-size: 40px;
+}
+.product h3{
+    font-size: 30px;
+}
+.product{
+    padding: 20px;
+    margin: 15px;
+    border:30px ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #d4d3d3;
+    
+}
+.rating{
+    display: flex;
+    color: tomato;
+}
+
+.rating p{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.see-more{
+    display: flex;
+    justify-content:flex-end;
+    color: tomato;
+}
+
+.recent-viewed{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content:center;  
+}
+.recent-viewed img{
+    width: 200px;
+    height: 180px;
+}
+
+.recent-viewed h2{
+    font-size: 30px;
+}
+.recent-viewed .price{
+    font-size: 25px;
+}
+footer{
+    background-color: #0a0826;
+    
+}
+footer h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+footer p{
+
+    color: white;
+    text-align: center;
+}
+.social-icon{
+    
+    color: white;
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.icon{
+    margin: 15px;
+}
+
+/* Mobile Device */
+
+@media only screen and (max-width:688px) {
+    main h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .product-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product img{
+        width: 300px;
+        height: 300px;
+    }
+    .recent-viewed img{
+        width: 300px;
+        height: 300px;
+    }
+    .recent-viewed{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header{
+        margin-top: 0px;
+    }
+.menu{
+    display: none;
+}
+.banner-text a{
+    font-size: 25px;
+}
+section{
+    margin: 10px;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.banner-image img{
+    width: 400px;
+    height: 400px;
+}
+    .banner-text h1{
+        color: orange;
+    }
+    .banner-text{
+        word-wrap: break-word;
+    }
+    .see-more{
+        font-size: 15px;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+/* Tablet Device */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    h1{
+        font-size: 30px;
+    }
+    .product-list{
+        margin: 2px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .recent-viewed{
+        margin: 2px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header{
+        margin: 2px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    header h1{
+        font-size: 50px;
+    }
+.menu{
+
+    display: none;
+}
+.banner-text a{
+    font-size: 25px;
+
+}
+section{
+    margin: 2px;
+    
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+}
+.banner-image img{
+    width: 650px;
+    height: 650px;
+    align:center;
+    
+}
+    .banner-text h1{
+        color: orange;
+    }
+    .product{
+        margin: 30px;
+        justify-content: center;
+    }
+    .product img{
+        margin: 2px;
+        width: 250px;
+        height: 250px;
+    }
+    .see-more{
+        font-size: 15px;
+        display: flex;
+        justify-content:center;
+            
+        }
+    }
+    footer{
+        width: 100%;
+    }
+}
