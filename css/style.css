@@ -46,6 +46,18 @@ section{
 .banner-text{
     margin-top: 50px;
 }
+.banner-text:hover{
+    border:10px solid tomato ;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.banner-image img:hover{
+    border:10px solid tomato ;
+    transform: rotate(45deg);
+    transition: 4s;
+    border-radius: 10px;
+    background-color: tomato (128, 128, 128, 0.342);
+}
 .banner-text a{
     background-color: tomato;
     padding: 10px;
@@ -83,6 +95,10 @@ main h1{
     margin: 15px;
     width: 400px;
     height: 360px;
+}
+.product img:hover{
+    transform: rotate(45deg);
+    transition: 4s;
 }
 .product h2{
     font-size: 50px;;
