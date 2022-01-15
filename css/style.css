@@ -114,7 +114,9 @@ main h1{
     display: flex;
     justify-content:flex-end;
     color: tomato;
+    text-decoration: none;
 }
+
 
 .recent-viewed{
     display: grid;
